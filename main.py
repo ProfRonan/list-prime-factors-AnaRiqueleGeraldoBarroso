@@ -26,6 +26,6 @@ def list_prime_factors(number: int) -> list[int]:
             lista.append(fator)
         fator = fator +1
     return lista
-number = int(input("Digite um número: "))
-is_prime(number)
-print(list_prime_factors(number))
+if __name__ == "__main__":
+    number = int(input("Digite um número: "))
+    print(list_prime_factors(number))
